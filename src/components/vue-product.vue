@@ -131,7 +131,7 @@ export default {
         '专业美国社交活动开展和人际交往圈培养'
       ],
       vipTwo:
-        "<h3>Buddy 好哥们</h3>\
+        `<h3>Buddy 好哥们</h3>\
 					<ul>\
 						<li>TOEFL JUNIOR学习</li>\
 						<li>美国初中留学申请服务</li>\
@@ -160,7 +160,7 @@ export default {
 						<li>面试素材挖掘和包装</li>\
 						<li>推荐信指导和包装</li>\
 						<li>美国留学行前准备和安全知识培训</li>\
-					<ul>",
+					<ul>`,
       vipOne: [
         'GRE/GMAT学习（目前此业务只对美国分公司开放）',
         '美国研究生留学申请服务（目前此业务只对美国分公司开放）',
@@ -172,7 +172,7 @@ export default {
       ]
     }
   }
-};
+}
 </script>
 
 <style lang='less'>
