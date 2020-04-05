@@ -1,23 +1,21 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div>
+    <vue-header></vue-header>
+    <vue-content></vue-content>
+    <vue-footer></vue-footer>
   </div>
 </template>
 
 <script>
+import vueHeader from './components/vue-header.vue'
+import vueContent from './components/vue-content.vue'
+import vueFooter from './components/vue-footer.vue'
 export default {
-  name: 'App'
+  name: 'app',
+  components: {
+    vueHeader,
+    vueContent,
+    vueFooter
+  }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
